@@ -1,0 +1,215 @@
+{
+  "strings": {
+    "SYSTEM_ID": "SYSTEM_ID",
+    "ARCHITECT_V2.0": "ARQUITECTO_V2.0",
+    "ACTIVE": "ACTIVO",
+    "PROFILE_ROLE_TITLE": "Fullstack Engineer & Arquitecto de Software",
+    "PROFILE_SPECIALIZATION": "Sistemas Escalables | Arquitecturas Distribuidas | Ciencia de Datos",
+    "SECURITY_STATUS": "ESTADO DE SEGURIDAD: ENCRIPTACIÓN NIVEL_4_ACTIVA",
+
+    "NAV_HOME": "PORTADA",
+    "NAV_PROFILE": "SOBRE MÍ",
+    "NAV_STACK": "STACK",
+    "NAV_TRAJECTORY": "EXPERIENCIA",
+    "NAV_PORTFOLIO": "PORTAFOLIO",
+    "NAV_CONTACT": "CONTACTO",
+
+    "HERO_TITLE": "Fullstack Engineer & Arquitecto de Software",
+    "HERO_SUBTITLE": "Diseño de Sistemas Escalables | Core Systems | Arquitecturas Distribuidas · Ciencia de Datos",
+    "KPI_UPTIME": "Disponibilidad",
+    "KPI_LATENCY": "Latencia",
+    "KPI_ROLE": "Rol",
+    "KPI_ROLE_VALUE": "FULLSTACK",
+    "KPI_SYNC": "Sync",
+    "KPI_STACK": "Stack",
+    "KPI_STACK_VALUE": "JS/TS · CLOUD · DATA",
+    "KPI_OK": "OK",
+    "KPI_PENDING": "…",
+    "CTA_PRIMARY": "Iniciar Protocolos",
+    "CTA_VIEW_PROJECTS": "Ver Proyectos",
+
+    "ABOUT_TITLE": "SOBRE MÍ",
+    "ABOUT_SUBTITLE": "Perfil profesional orientado a producto y arquitectura.",
+
+    "EDUCATION_TITLE": "EDUCACIÓN",
+    "EDUCATION_SUBTITLE": "Formación académica, diplomados y certificaciones.",
+    "DIPLOMA_LABEL": "Diplomados / Certificados",
+    "VIEW_PDF": "Ver PDF",
+
+    "STACK_TITLE": "STACK TECNOLÓGICO",
+    "STACK_SUBTITLE": "Herramientas y tecnologías que uso para construir productos.",
+
+    "EXPERIENCE_TITLE": "EXPERIENCIA",
+    "EXPERIENCE_SUBTITLE": "Resumen visual de roles y proyectos.",
+
+    "PORTFOLIO_TITLE": "PRODUCTOS",
+    "PORTFOLIO_SUBTITLE": "Portafolio real con links y responsabilidades.",
+    "PORTFOLIO_HIGHLIGHTS": "DESTACADOS",
+    "PORTFOLIO_ROLE": "MI ROL",
+    "PORTFOLIO_TECH": "TECNOLOGÍA",
+    "PORTFOLIO_MEDIA": "DEMO / MEDIA",
+    "OPEN_DEMO": "Abrir demo",
+    "OPEN_MEDIA": "Abrir media",
+    "LINKS_TITLE": "LINKS",
+    "PRODUCT_LINK_SITE": "Sitio",
+    "PRODUCT_LINK_INSTAGRAM": "Instagram",
+    "PRODUCT_LINK_DEMO": "Demo",
+
+    "CONTACT_TITLE": "CONTACTO",
+    "CONTACT_SUBTITLE": "¿Hablamos? Estoy disponible para nuevos retos.",
+    "CONTACT_EMAIL": "Email",
+    "CONTACT_PHONE": "Teléfono",
+    "CONTACT_LOCATION": "Ubicación",
+
+    "COMING_SOON": "PRÓXIMAMENTE",
+    "PLACEHOLDER_COPY": "Esta vista es un stub para la estructura de rutas/módulos. Reemplázala por una página real cuando la necesites.",
+
+    "FOOTER_COPYRIGHT": "© 2026 — Fullstack Software Engineer"
+  },
+  "about": {
+    "paragraphs": [
+      "Soy Arquitecto de Software y Fullstack Software Engineer con más de 8 años de experiencia en el desarrollo de aplicaciones web y móviles, trabajando tanto en frontend como en backend.",
+      "Diseño sistemas escalables, desacoplados y de alto rendimiento, aplicando buenas prácticas de arquitectura y principios SOLID.",
+      "Tengo experiencia en DevOps e integración y despliegue continuo (CI/CD) utilizando herramientas como Jenkins y GitHub Actions, además de la configuración de pipelines y procesos automatizados con archivos en YAML.",
+      "Cuento con amplia experiencia Fullstack en Angular, React, Java y Spring Boot, y también he trabajado con NestJS y arquitecturas basadas en microservicios.",
+      "Me apasiona aprender e integrar nuevas tecnologías como AWS, Azure, Firebase, en proyectos reales."
+    ]
+  },
+  "stack": {
+    "categories": [
+      {
+        "id": "frontend",
+        "title": "Frontend",
+        "items": ["Angular", "AngularJS", "React", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS"]
+      },
+      { "id": "mobile", "title": "Mobile", "items": ["Flutter", "Android Studio"] },
+      {
+        "id": "backend",
+        "title": "Backend",
+        "items": ["Node.js", "Express.js", "NestJS", "Java", "Spring Boot", "APIs REST", "Microservicios"]
+      },
+      {
+        "id": "cloud-devops",
+        "title": "Cloud & DevOps",
+        "items": ["AWS", "Google Cloud Platform (GCP)", "CI/CD", "Jenkins", "GitHub Actions", "GitLab CI/CD"]
+      },
+      { "id": "firebase", "title": "Firebase", "items": ["Authentication", "Firestore", "Cloud Functions", "Storage", "Hosting", "Cloud Messaging (FCM)"] },
+      { "id": "databases", "title": "Bases de Datos", "items": ["MySQL", "MongoDB", "DynamoDB", "Redis", "Sequelize"] },
+      { "id": "tools", "title": "Herramientas", "items": ["Git", "GitHub", "GitLab"] },
+      { "id": "methods", "title": "Metodologías", "items": ["SCRUM"] }
+    ]
+  },
+  "portfolio": {
+    "products": [
+      {
+        "id": "redbro",
+        "name": "RedBro",
+        "description": "Plataforma inmobiliaria diseñada para conectar propietarios con compradores o arrendatarios de manera eficiente y moderna.",
+        "highlights": [
+          "Publicación y gestión de inmuebles",
+          "Búsqueda con filtros avanzados",
+          "Gestión de intereses y seguimiento para propietarios",
+          "Arquitectura modular y escalable"
+        ],
+        "role": [
+          "Diseño y desarrollo del backend con NestJS",
+          "Implementación de APIs REST",
+          "Integración con base de datos",
+          "Estructura modular y escalable",
+          "Diseño de experiencia de usuario en frontend"
+        ],
+        "tech": ["NestJS", "APIs REST", "Database", "Arquitectura modular"],
+        "media": {
+          "title": "Demo en vivo de RedBro (Instagram)",
+          "url": "https://www.instagram.com/redbroinmobiliaria/"
+        },
+        "links": [
+          { "label": "Sitio", "url": "https://redbro.lat/" },
+          { "label": "Instagram", "url": "https://www.instagram.com/redbroinmobiliaria/" }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "email": "bdavidegonzalez@gmail.com",
+    "phone": "3132781615",
+    "location": "Zipaquirá, Colombia",
+    "links": [{ "label": "LinkedIn", "url": "https://www.linkedin.com/" }]
+  },
+  "experience": [
+    {
+      "id": "exp-tcs-avianca",
+      "role": "Fullstack Developer",
+      "company": "Tata Consultancy Services",
+      "client": "Avianca",
+      "start": "2022",
+      "end": "Actualidad",
+      "summary": [
+        "Desarrollo con Angular (hasta v20).",
+        "Aplicaciones operacionales para pilotos.",
+        "Modernización de apps legacy (AngularJS + Java).",
+        "Trabajo en equipos ágiles (SCRUM)."
+      ],
+      "tags": ["Angular", "AngularJS", "Java", "SCRUM"]
+    },
+    {
+      "id": "exp-davivienda",
+      "role": "Software Engineer",
+      "company": "Davivienda",
+      "start": "2021",
+      "end": "2022",
+      "summary": [
+        "Diseño e implementación de APIs con Node.js, Express y NestJS.",
+        "Arquitectura de bases de datos escalables.",
+        "Implementación de Redis para caching.",
+        "Despliegue en Google Cloud Platform (GCP)."
+      ],
+      "tags": ["Node.js", "Express", "NestJS", "Redis", "GCP"]
+    },
+    {
+      "id": "exp-kubo",
+      "role": "Backend / Fullstack Developer",
+      "company": "KUBO",
+      "start": "2019",
+      "end": "2021",
+      "summary": [
+        "Desarrollo de APIs REST escalables y seguras.",
+        "Pruebas automatizadas.",
+        "Optimización de bases de datos MySQL.",
+        "Uso de Sequelize (ORM)."
+      ],
+      "tags": ["APIs REST", "Testing", "MySQL", "Sequelize"]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-ingenieria",
+      "type": "degree",
+      "program": "Ingeniería en Desarrollo de Software",
+      "institution": "Universidad Politécnica Grancolombiana — Bogotá, Colombia",
+      "start": "2019",
+      "end": "2025",
+      "tags": ["Ingeniería", "Software"]
+    },
+    {
+      "id": "edu-diplomado-arq",
+      "type": "diploma",
+      "program": "Diplomado en Ciencias de la Computación",
+      "institution": "Politécnico Grancolombiano — Bogotá, Colombia",
+      "start": "01 Sep 2025",
+      "end": "17 Oct 2025",
+      "summary": "Programa de formación en modalidad virtual enfocado en el desarrollo de habilidades en Algoritmos Avanzados y Arquitectura de Software. El curso abordó conceptos clave y enfoques prácticos para el diseño, análisis y optimización de algoritmos, así como principios arquitectónicos, patrones y buenas prácticas para la construcción de sistemas de software escalables, mantenibles y robustos.",
+      "tags": ["Arquitectura de Software", "Algoritmia Avanzada", "Ciencias de la Computación", "100h", "Teams"]
+    },
+    {
+      "id": "edu-tecnologo",
+      "type": "degree",
+      "program": "Tecnólogo en Desarrollo de Software",
+      "institution": "Universidad Uniagustiniana — Bogotá, Colombia",
+      "start": "2014",
+      "end": "2017",
+      "tags": ["Desarrollo", "Software"]
+    }
+  ]
+}
+
