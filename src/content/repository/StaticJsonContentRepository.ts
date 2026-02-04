@@ -6,8 +6,8 @@ import en from '../static/en.json'
 import es from '../static/es.json'
 
 const byLocale: Record<Locale, AppContent> = {
-  en,
-  es,
+  en: en as AppContent,
+  es: es as AppContent,
 }
 
 export class StaticJsonContentRepository implements ContentRepository {
