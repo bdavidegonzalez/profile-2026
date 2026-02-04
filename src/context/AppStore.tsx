@@ -28,6 +28,7 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
   return <AppStoreContext.Provider value={value}>{children}</AppStoreContext.Provider>
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function useAppStore() {
   const ctx = useContext(AppStoreContext)
   if (!ctx) throw new Error('useAppStore must be used within AppStoreProvider')

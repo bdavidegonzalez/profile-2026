@@ -32,7 +32,8 @@ export function useFetch<T>(fn: AsyncFn<T>, deps: readonly unknown[] = []) {
       const error = err instanceof Error ? err : new Error('Unknown error')
       setState({ data: null, error, isLoading: false })
     }
-  }, deps) // eslint-disable-line react-hooks/exhaustive-deps
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [...deps])
 
   useEffect(() => {
     void run()
