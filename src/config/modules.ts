@@ -1,10 +1,6 @@
-export type ModuleId = 'stack' | 'trajectory' | 'portfolio' | 'contact'
+import type { ModulesConfig } from '@/models'
 
-export type ModuleConfig = {
-  enabled: boolean
-}
-
-export type ModulesConfig = Record<ModuleId, ModuleConfig>
+export type { ModuleId, ModuleConfig, ModulesConfig } from '@/models'
 
 /**
  * Toggle visibility of modules (navbar + routes).

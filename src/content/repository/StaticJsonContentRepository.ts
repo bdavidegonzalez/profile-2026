@@ -1,5 +1,4 @@
-import type { Locale } from '@/i18n'
-import type { AppContent } from '../types'
+import type { Locale, AppContent } from '@/models'
 import type { ContentRepository } from './ContentRepository'
 
 import en from '../static/en.json'

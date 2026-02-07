@@ -1,2 +1,1 @@
-export type Locale = 'en' | 'es'
-
+export type { Locale } from '@/models'

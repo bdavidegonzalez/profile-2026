@@ -1,4 +1,6 @@
-export type SectionConfig = Record<string, boolean>
+import type { SectionConfig } from '@/models'
+
+export type { SectionConfig } from '@/models'
 
 export const sections = {
   profile: {

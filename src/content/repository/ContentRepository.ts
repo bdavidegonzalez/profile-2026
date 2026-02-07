@@ -1,5 +1,4 @@
-import type { Locale } from '@/i18n'
-import type { AppContent } from '../types'
+import type { Locale, AppContent } from '@/models'
 
 export interface ContentRepository {
   get(locale: Locale): AppContent

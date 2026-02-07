@@ -12,7 +12,7 @@ createRoot(document.getElementById('root')!).render(
     <AppStoreProvider>
       <I18nProvider>
         <ContentProvider>
-          <BrowserRouter>
+          <BrowserRouter basename="/profile-2026">
             <App />
           </BrowserRouter>
         </ContentProvider>

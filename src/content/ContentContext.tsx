@@ -1,6 +1,6 @@
 import { createContext, useContext, useMemo, type ReactNode } from 'react'
 import { useI18n, type Locale } from '@/i18n'
-import type { AppContent } from './types'
+import type { AppContent } from '@/models'
 import type { ContentRepository } from './repository/ContentRepository'
 import { StaticJsonContentRepository } from './repository/StaticJsonContentRepository'
 
