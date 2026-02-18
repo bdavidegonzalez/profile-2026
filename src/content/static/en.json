@@ -68,11 +68,10 @@
   },
   "about": {
     "paragraphs": [
-      "I’m a Software Architect and Fullstack Software Engineer with over 8 years of experience building web and mobile applications, working across both frontend and backend.",
-      "I design scalable, decoupled, high-performance systems, applying architecture best practices and SOLID principles.",
-      "I have experience in DevOps and continuous integration and delivery (CI/CD), using tools like Jenkins and GitHub Actions, as well as configuring pipelines and automated processes with YAML files.",
-      "I have extensive fullstack experience with Angular, React, Java, and Spring Boot, and I’ve also worked with NestJS and microservice-based architectures.",
-      "I’m passionate about learning and integrating new technologies like AWS, Azure, and Firebase into real-world projects."
+      "Senior Fullstack Software Engineer with 8+ years of experience building scalable, high-availability web and mobile applications across fintech and airline industries.",
+      "Expertise in Angular (v20), Node.js, NestJS, RESTful APIs, microservices architecture, and cloud-native deployments on GCP.",
+      "Strong background in distributed systems, performance optimization, caching strategies (Redis), and legacy system modernization.",
+      "Experience designing secure, scalable APIs, improving system reliability, and delivering mission-critical applications under agile (SCRUM) environments."
     ]
   },
   "stack": {
